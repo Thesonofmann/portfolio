@@ -3,7 +3,7 @@ import Navbar from "./assets/components/Navbar";
 import Hero from "./assets/components/Hero";
 import AboutMe from "./assets/components/AboutMe";
 import Technologies from "./assets/components/Technologies";
-import Experience from "./assets/components/Experience";
+// import Experience from "./assets/components/Experience";
 import Contact from "./assets/components/Contact";
 
 
@@ -20,7 +20,7 @@ const App = () => {
           <Hero />
           <AboutMe />
           <Technologies />
-          <Experience />
+          {/* <Experience /> */}
           <Contact />
         </div>
 
