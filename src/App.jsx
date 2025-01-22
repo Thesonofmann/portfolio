@@ -3,6 +3,7 @@ import Navbar from "./assets/components/Navbar";
 import Hero from "./assets/components/Hero";
 import AboutMe from "./assets/components/AboutMe";
 import Projects from "./assets/components/Projects";
+import Technologies from "./assets/components/Technologies";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
           <Navbar/>
           <Hero />
           <AboutMe />
-          {/* <Technologies /> */}
+          <Technologies />
         </div>
 
 
