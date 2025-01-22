@@ -2,8 +2,10 @@ import React from "react";
 import Navbar from "./assets/components/Navbar";
 import Hero from "./assets/components/Hero";
 import AboutMe from "./assets/components/AboutMe";
-import Projects from "./assets/components/Projects";
 import Technologies from "./assets/components/Technologies";
+import Experience from "./assets/components/Experience";
+import Contact from "./assets/components/Contact";
+
 
 const App = () => {
   return (
@@ -18,10 +20,11 @@ const App = () => {
           <Hero />
           <AboutMe />
           <Technologies />
+          <Experience />
+          <Contact />
         </div>
 
 
-        {/* <Projects /> */}
       </div>
   )
 }

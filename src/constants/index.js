@@ -15,4 +15,8 @@ export const CONTACT = {
   email: "jerryashh@gmail.com",
   phoneNo: "+2348101460815",
   linkedin: "https://www.linkedin.com/in/ashogbon-jeremiah/",
+  github: "https://github.com/Thesonofmann",
+  instagram: "",
+  X: ""
+
 };

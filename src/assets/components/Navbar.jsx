@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { CONTACT } from "../../constants";
 // import logo1 from "../../assets/logo1.webp";
 
 const Navbar = () => {
@@ -11,10 +12,18 @@ const Navbar = () => {
             {/* <img src={logo1} alt="logo" className="w-20 h-15"/> */}
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+          <a href={CONTACT.linkedin}>
             <FaLinkedin />
-            <FaGithub />
+          </a>
+          <a href={CONTACT.github}>
+            <FaGithub />            
+          </a>
+          <a href={CONTACT.X}>
             <FaSquareXTwitter />
+          </a>
+          <a href={CONTACT.instagram}>
             <FaInstagram />
+          </a>
 
         </div>
     </nav>
