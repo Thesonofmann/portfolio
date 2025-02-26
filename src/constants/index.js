@@ -1,6 +1,6 @@
 import project1 from "../assets/project1.jpeg";
 import project2 from "../assets/project2.jpeg";
-import netflixproject from "../assets/netflixpic.png";
+import netflixproject from "../assets/Netflixpic.png";
 import hangmanGame from "../assets/hangman.png";
 import project3 from "../assets/project3.jpeg";
 
