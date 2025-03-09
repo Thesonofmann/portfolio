@@ -6,10 +6,10 @@ import project3 from "../assets/project3.jpeg";
 
 
 export const NAVIGATION_LINKS = [
-  { label: "Projects", href: "#projects" },
+  { label: "Home", href: "#home" },
   { label: "Bio", href: "#aboutMe" },
   { label: "Skills", href: "#skills" },
-  { label: "Home", href: "#home" },
+  { label: "Projects", href: "#projects" },
   // { label: "Experience", href: "#experience" },
   { label: "Get in Touch", href: "#contact" },
 ];

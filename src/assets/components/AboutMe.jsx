@@ -19,7 +19,7 @@ const AboutMe = () => {
             initial={{opacity: 0, x: -20}}
             whileInView={{opacity: 1, x: 0}}
             transition={{duration: 0.8}}
-        className="my-2 maxw-xl py-6">
+        className="my-2 maxw-xl py-6 justify-center text-justify">
           {ABOUT_TEXT}
         </motion.p>
       </motion.div>
